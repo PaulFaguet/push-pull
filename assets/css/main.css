@@ -12,6 +12,13 @@
   --main-color-second: #ff914d; /* #2ed06e */
 }
 
+.test-font {
+  font-family: "Nike";
+}
+@font-face {
+  font-family: "Nike";
+  src: url("../fonts/Futura\ Condensed\ Extra\ Bold.otf");
+}
 html {
   scroll-behavior: smooth;
 }
@@ -2298,7 +2305,7 @@ ol {
 }
 
 .freatures .content .single-feature h4 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 700;
   display: block;
   margin-bottom: 15px;
